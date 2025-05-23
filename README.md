@@ -1,5 +1,5 @@
 # nestor-the-todo-bot
-A Telegram todo bot to my own liking
+A Telegram todo bot to my own liking. I didn't setup a DB for it since this was just a practice project to try out some libraries. Maybe I'll keep developing if I find it handy.
 
 ## Commands
 - /start - Begin interaction
