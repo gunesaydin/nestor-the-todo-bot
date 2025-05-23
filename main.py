@@ -18,8 +18,6 @@ def setup_webhook():
         f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/getWebhookInfo",
     )
 
-    print(webhook_info_response.json())
-
     if webhook_info_response.ok == True and webhook_info_response.json().get("result").get("url") == WEBHOOK_URL:
         print("Webhook is already set.")
     else:
